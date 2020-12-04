@@ -10,8 +10,9 @@
 }
 
 body {
-background-color: var(--blacknetflix);
-font-family: 'Times New Roman', Times, serif;
+    background-color: var(--blacknetflix);
+    font-family: 'Times New Roman', Times, serif;
+    height: 1250px;
 }
 
 header .container {
@@ -30,11 +31,16 @@ header .container .logo img {
 }
 
 header .container .navigation {
+    overflow: hidden;
     margin-top: 23px;
     margin-left: 30px;
 }
 
 header nav a {
+    float: left;
+    display: block;
+    text-align: justify;
+    padding: 3px;
     font-size: 15px;
     font-family: 'Open Sans', sans-serif;
     text-decoration: none;
@@ -53,4 +59,39 @@ header nav a:hover {
 
 header nav .home {
     font-weight: bold;
+}
+
+.sticky {
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+
+.sticky + .main {
+    padding-top: 76px;
+}
+
+.main {
+    padding: 16px;
+}
+
+main .container {
+    background: url(/img/main/rick.jpg) no-repeat;
+    background-size: 100%;
+    padding: 0rem 0rem 35rem;
+}
+
+main .background .title img {
+    margin-top: 9rem;
+    margin-left: 4rem;
+    z-index: -1;
+    height: 7rem;
+}
+
+main .container h3 {
+    color: rgb(255, 255, 255);
+    padding-top: 1rem;
+    margin-left: 4rem;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 19px;
 }

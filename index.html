@@ -5,13 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/main.css">
-    <title>Netflix | Dio Clone</title>
+    <title>Netflix | Clone</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <header>
+    <header class="header" id="myheader">
         <div class="container">
             <div class="logo">
                 <a href="#"><img src="/img/logo.png" alt="Netflix Logo"></a>
@@ -27,9 +27,46 @@
             </div>
         </div>
     </header>
+    <script>
+        window.onscroll = function () { myFunction() };
+        var header = document.getElementById("myheader");
+        var sticky = header.offsetTop;
+        function myFunction() {
+            if (window.pageYOffset > sticky) {
+                header.classList.add("sticky")
+            } else {
+                header.classList.remove("sticky");
+            }
+        }
+    </script>
     <main>
-
+        <div class="container">
+            <div class="background">
+                <div class="poster">
+                    <!-- <img src="/img/main/rick.jpg" alt="Rick and Morty"> -->
+                </div>
+                <div class="title">
+                    <img src="/img/main/title.png" alt="Title card">
+                </div>
+            </div>
+            <h3>
+                Brilliant but boozy scientist Rick hijacks his fretful teenage <br>
+                grandson, Morty, for wild escapades in other worlds and <br>
+                alternate dimensions.
+            </h3>
+        </div>
     </main>
+    <section>
+        <div class="trends">
+            <nav>
+                <li><img src="/img/brooklyn.jpg" alt=""></li>
+                <li><img src="/img/fawlty.jpg" alt=""></li>
+                <li><img src="#" alt=""></li>
+                <li><img src="#" alt=""></li>
+                <li><img src="#" alt=""></li>
+            </nav>
+        </div>
+    </section>
 </body>
 
 </html>
