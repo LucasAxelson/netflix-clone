@@ -81,17 +81,17 @@ header nav .home {
     padding: 16px;
 }
 
-main .container {
-    background: url(/img/main/rick.jpg) no-repeat;
-    background-size: 100%;
-    padding: 0rem 0rem 23rem;
-}
-
 main .background .title img {
     margin-top: 9rem;
     margin-left: 4rem;
     z-index: -1;
     height: 7rem;
+}
+
+main .container {
+    background: url(/img/main/rick.jpg) no-repeat;
+    background-size: 100%;
+    padding: 0rem 0rem 23rem;
 }
 
 main .container h3 {
