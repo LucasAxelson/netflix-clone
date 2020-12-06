@@ -32,11 +32,18 @@ Code revised. <br>
 <hr>
 After a few days of studying and various hours of programming a day, I have finally finished up my third site. To more experienced programmers and a future me, the site seems simplistic. However, it was the hardest one I've ever made, having done so alone. Instead of listening to the teachers orientations and simply copying and pasting his site. I decided to regularly pause throughout the course and do the site myself. Using W3Schools, Mozilla developer and many other auxiliary content to help make the site the way I wanted it to be. It was tiresome, sometimes outraging, but it was satisfying. There are things I would still like to do with this site, but I have dedicated three to four days on this little project and it's about time I get back to improving my code, learning new information and becoming a better developer. <br>
 <hr>
-It wasn't easy to make to this site, and so I can proudly say that I started this project barely knowing how to program the basic without consulting some source. Now, I find myself oggling the code and the live server, making sure everything is going according to plan. Can't figure something out? Read up on the elements that your brain keep screaming at you and check to see if there are any better or even functional alternative solutions out there on the web. I'm surprised to say that this Netflix clone turned out to be a lot more educational than I had imagined.
+It wasn't easy to make to this site, and so I can proudly say that I started this project barely knowing how to program the basic without consulting some source. Now, I find myself oggling the code and the live server, making sure everything is going according to plan. Can't figure something out? Read up on the elements that your brain keep screaming at you and check to see if there are any better or even functional alternative solutions out there on the web. I'm surprised to say that this Netflix clone turned out to be a lot more educational than I had imagined. <br>
+
 ![1 - Main page](https://user-images.githubusercontent.com/73433189/101280149-50465580-37bf-11eb-97b3-f4fd6ba8dab2.PNG)
+
 ![2 - Trends](https://user-images.githubusercontent.com/73433189/101280154-54727300-37bf-11eb-9172-21b17158c80f.PNG)
+
 ![3 - Responsive](https://user-images.githubusercontent.com/73433189/101280156-563c3680-37bf-11eb-929e-ef0aaea5bd26.PNG)
+
 ![4 - Header](https://user-images.githubusercontent.com/73433189/101280157-56d4cd00-37bf-11eb-8936-699d195f6661.PNG)
+
 ![5 - Main](https://user-images.githubusercontent.com/73433189/101280158-576d6380-37bf-11eb-8a75-b2e9848bd660.PNG)
+
 ![6 - Trends](https://user-images.githubusercontent.com/73433189/101280159-576d6380-37bf-11eb-9547-3c8cb0f1533d.PNG)
+
 ![7 - Responsivity](https://user-images.githubusercontent.com/73433189/101280160-5805fa00-37bf-11eb-8289-ba6c697c5e57.PNG)
